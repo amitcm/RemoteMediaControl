@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="55e2e6c8-b769-4184-8bf5-e7d1b126a92f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8732/Design_Time_Addresses/MediaSvc/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="1e3c44a7-1cbe-4ee1-b246-0a54b8d69acc" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/MediaSvc/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="68308595-98c9-4b57-86e8-ecf06151cc40" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/MediaSvc/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="MediaService.wsdl" MetadataType="Wsdl" ID="7ec095eb-0373-4e2d-9029-9eb895a22e6c" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/MediaSvc/Service1/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="8d615223-b1c5-470a-940d-5f314e950d66" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/MediaSvc/Service1/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
